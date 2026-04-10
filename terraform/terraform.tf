@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-gitops-shah-786"
+    bucket = "ammarshah-dev-project-demo-security"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-central-1"
   }
 
 
